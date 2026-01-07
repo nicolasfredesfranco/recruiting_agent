@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Gmail OAuth Credentials - SENSITIVE FILES
+config/gmail/credentials.json
+config/gmail/token.json
+config/gmail/accounts/*_credentials.json
+config/gmail/accounts/*_token.json
+
+# GitHub Tokens - SENSITIVE FILES
+config/github/tokens.txt
+config/github/*.token
+
+# JTalent Credentials - SENSITIVE FILES
+config/jtalent/credentials.json
+config/jtalent/*.env
+
+
